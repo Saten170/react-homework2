@@ -9,10 +9,10 @@ class ExampleFour extends React.Component {
         super();
     }
     generateRandomColor =() => {
-        const r = Math.floor(Math.random() * 256);
-        const g = Math.floor(Math.random() * 256);
-        const b = Math.floor(Math.random() * 256);
-        const background ="rgb(" + red + ", " + green + ", " + blue + ")";
+        const red = Math.floor(Math.random() * 255);
+        const green = Math.floor(Math.random() * 255);
+        const blue = Math.floor(Math.random() * 255);
+        const background ="rgb(" + red + ", " + green + "," + blue + ")";
         this.setState({color:background});
       };
     render(){

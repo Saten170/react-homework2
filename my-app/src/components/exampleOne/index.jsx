@@ -19,6 +19,7 @@ changeState = () =>{
 };
 
   render(){
+    const state = this.state;
     return (
         <>
       <label className="G-input" >
