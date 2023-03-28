@@ -3,7 +3,7 @@ import './style.scss'
 
 class ExampleFour extends React.Component {
      state = {
-        color:'white'
+        color:''
     };
     constructor(props){
         super();
